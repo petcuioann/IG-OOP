@@ -1,0 +1,66 @@
+Goal: A functional C++ program with well-structured code.
+Write a C++ console application that solves one problem from the list below. Choose the problem according to the last digit of your student ID number.
+
+Requirements:
+
+- Each subproblem (a + b) must be implemented in its own function;
+
+- Mathematical routines must be implemented as standalone functions;
+
+- Numbers or number series must always be read from the console;
+
+- The solution is submitted as a single file named: L1_LastName_FirstName_ProblemX.cpp (where X is the number of the chosen problem);
+
+- The program must be compilable with the GnuCompiler: g++ -std=c++20.
+
+Assessment Criteria:
+
+- Requirements must be fulfilled;
+
+- The code must be compilable without errors;
+
+- The program must be executable and deliver correct results;
+
+- You must be able to explain the code;
+
+- The code must be readable and contain comments where necessary.
+
+Problem 0.
+a. Determine the first n natural numbers (x1, x2, ..., xn) greater than 2 with the following property: all natural numbers smaller than xi are relatively prime to xi.
+b. Given a vector of numbers, find the longest contiguous subsequence such that all consecutive elements contain the same digits.
+
+Problem 1.
+a. Calculate the approximate value of the square root of a positive real number.
+b. Given a vector of numbers, find the longest contiguous subsequence such that the difference between any two consecutive elements is a prime number.
+
+Problem 2.
+a. Generate the first n prime numbers (n is a given natural number).
+b. Given a series of numbers, find the longest contiguous subsequence such that any two consecutive elements are relatively prime.
+
+Problem 3.
+a. Read a sequence of natural numbers (sequence ends with 0) and determine the number of zero digits in the product of the read numbers.
+b. Given a vector of numbers, find the longest contiguous subsequence such that the sum of any two consecutive elements is a prime number.
+
+Problem 4.
+a. Read sequences of positive integers (the reading of each sequence ends with 0, the reading of all sequences ends with -1) and determine the maximum element of each sequence and the global maximum.
+b. Given a vector of numbers, find the longest contiguous subsequence such that all elements lie within a specific interval.
+
+Problem 5.
+a. Determine the value of x^n, where x is a real number and n is a natural number, using only multiplication and square operations.
+b. Given a vector of numbers, find the longest contiguous subsequence where every two consecutive elements have opposite signs.
+
+Problem 6.
+a. Decompose an arbitrary natural number into its prime factors.
+b. Given a vector of numbers, find the longest contiguous subsequence where consecutive elements contain the same digits.
+
+Problem 7.
+a. Decompose a given even natural number, greater than 2, as the sum of two prime numbers (Goldbach's conjecture).
+b. Given a vector of numbers, find the longest contiguous subsequence such that all consecutive elements have at least two different digits in common.
+
+Problem 8.
+a. Determine the first n pairs of twin primes, where n is a given non-zero natural number. Two prime numbers p and q are called "twins" if q - p = 2.
+b. Given a vector of numbers, find the longest contiguous decreasing subsequence.
+
+Problem 9.
+a. Determine all numbers that are smaller than a given natural number n, are non-zero, and are relatively prime to n.
+b. Given a vector of numbers, find the longest contiguous subsequence with the maximum sum.

@@ -1,0 +1,66 @@
+Ziel: Ein funktionierendes C++ Programm mit gut strukturiertem Code.
+Schreibe eine C++ Konsolenanwendung, die ein Problem aus der untenstehenden Liste löst. Wähle das Problem entsprechend der letzten Ziffer Deiner Matrikelnummer.
+
+Anforderungen:
+
+- Jedes Teilproblem (a. + b.) soll in einer eigenen Funktion umgesetzt sein;
+
+- Mathematische Routinen sollen als eigenständige Funktionen implementiert sein;
+
+- Die Zahlen oder Zahlenreihen sind stets von der Konsole einzulesen;
+
+- Die Lösung wird als eine Datei mit dem folgenden Namen abgegeben: L1_Nachname_Vorname_ProblemX.cpp (X = Nummer des gewählten Problems);
+
+- Das Programm muss mit dem GnuCompiler kompilierbar sein: g++ -std=c++20.
+
+Bewertungskriterien:
+
+- Die Anforderungen müssen erfüllt sein;
+
+- Der Programmcode muss fehlerfrei kompilierbar sein;
+
+- Das Programm muss ausführbar sein und das korrekte Ergebnis liefern;
+
+- Du musst den Code erklären können;
+
+- Der Code muss gut lesbar sein und wo notwendig Kommentare enthalten.
+
+Problem 0.
+a. Bestimmen Sie die ersten n natürlichen Zahlen (x1, x2, ..., xn) größer als 2 mit der folgenden Eigenschaft: Alle natürlichen Zahlen kleiner als xi sind mit xi relativ prim.
+b. Geben Sie den längsten zusammenhängenden Zahlenvektor so an, dass alle aufeinanderfolgenden Elemente dieselben Ziffern enthalten.
+
+Problem 1.
+a. Berechnen Sie den angenäherten Wert der Quadratwurzel einer positiven reellen Zahl.
+b. Gegeben sei un Vektor von Zahlen, finden Sie die längste zusammenhängende Teilfolge so, dass die Differenz von zwei aufeinanderfolgenden Elementen eine Primzahl ist.
+
+Problem 2.
+a. Generieren Sie die ersten n Primzahlen (n ist eine gegebene natürliche Zahl).
+b. Gegeben sei eine Reihe von Zahlen, finden Sie die längste zusammenhängende Teilfolge so, dass alle zwei beliebigen aufeinanderfolgenden Elemente relativ prim sind.
+
+Problem 3.
+a. Lesen Sie eine Sequenz von natürlichen Zahlen (Sequenz mit 0 beendet) und bestimmen Sie die Anzahl von 0-Ziffern des Produkts der gelesenen Zahlen.
+b. Gegeben sei ein Vektor von Zahlen, finde die längste zusammenhängende Teilfolge so, dass die Summe von zwei aufeinanderfolgenden Elementen eine Primzahl ist.
+
+Problem 4.
+a. Lese Sequenzen von positiven ganzen Zahlen (das Lesen jeder Sequenz endet mit 0, das Lesen aller Sequenzen endet mit -1) und bestimme das maximale Element jeder Sequenz und das maximale Element der globalen Sequenz.
+b. Geben Sie die längste zusammenhängende Teilsequenz mit einem Vektor aus Zahlen so an, dass alle Elemente in einem bestimmten Intervall liegen.
+
+Problem 5.
+a. Bestimmen Sie den Wert x ^ n, wobei x eine reelle Zahl und n eine natürliche Zahl ist, indem Sie nur Multiplikations- und Quadratoperationen nutzen.
+b. Bei einem gegebenen Zahlenvektor finde die längste aufeinanderfolgende Teilfolge, wobei jede zwei aufeinanderfolgende Elemente entgegengesetzte Vorzeichen haben.
+
+Problem 6.
+a. Zerlege eine beliebige natürliche Zahl in ihre Primfaktoren.
+b. Bei einem gegebenen Zahlenvektor finde die längste aufeinanderfolgende Teilfolge, wobei aufeinanderfolgende Elemente dieselben Ziffern enthalten.
+
+Problem 7.
+a. Zerlege eine gegebene gerade natürliche Zahl, größer als 2, als Summe zweier Primzahlen (Goldbachsche Vermutung).
+b. Bei einem Vektor aus Zahlen finden Sie die längste zusammenhängende Teilfolge, so dass alle aufeinanderfolgenden Elemente mindestens zwei verschiedene Ziffern gemeinsam haben.
+
+Problem 8.
+a. Bestimmen Sie die ersten n Paare von Zwillingszahlen, wobei n eine gegebene natürliche Zahl ungleich Null ist. Zwei Primzahlen p und q heißen Twin, wenn q - p = 2 ist.
+b. Gegeben sei un Vektor von Zahlen, finde die am längsten abnehmende aufeinanderfolgende Teilfolge.
+
+Problem 9.
+a. Bestimme alle Zahlen, die kleiner als eine gegebene natürliche Zahl n und nicht Null sind und die relativ zu n prim sind.
+b. Bei einem gegebenen Zahlenvektor finden Sie die längste aufeinanderfolgende Teilfolge mit der maximalen Summe.
